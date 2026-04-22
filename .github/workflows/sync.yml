@@ -21,7 +21,7 @@ jobs:
           git config --global user.email 'actions@github.com'
           
           # 2. 绑定原作者的上游仓库地址（请替换为实际地址）
-          git remote add upstream git@github.com:datawhalechina/hello-agents.git
+          git remote add upstream https://github.com/datawhalechina/hello-agents.git
           
           # 3. 拉取原作者的最新代码
           git fetch upstream
